@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
    // apiservice.Fetch();
     return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Product App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
